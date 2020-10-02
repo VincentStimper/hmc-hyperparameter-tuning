@@ -13,7 +13,7 @@ These experiments were done with numpy, scipy, and autograd, so these packages h
 
 The framework TensorFlow 2 was used here. For installation instruction, see https://www.tensorflow.org/install.
 
-### Molecular configuration sampling
+### 1D experiments and molecular configuration sampling
 
 We used the framework PyTorch 1.6 for these experiments, see  https://pytorch.org/get-started/locally/ for installation
 instructions. Furthermore, to dependencies need to be installed via

@@ -1,0 +1,1 @@
+{"mb_size": 128, "alpha": 0.0, "z_dim": 32, "h_dim": 500, "X_mnist_dim": 784, "momentum_train_batch_size": 1, "z_train_sample_batch_size": 30, "num_layers": 30, "num_lfsteps": 5, "momentum_std": 1.0, "generator": "dcnn_relu", "vfun": "sigmoid", "batches": 95000, "dybin": true, "reg": 1e-06, "lr": 0.0002, "lr-decay": 0.97}

@@ -1,0 +1,22 @@
+defaults:
+  - defaults
+
+name: "MaxELT"
+
+path_to_initial_dist_model: '${outputs_path}/InitialDist/initial_dist_final.pt'
+
+log_stepsize_min: -6
+log_stepsize_max: -5
+log_stepsize_const: null
+log_mass_min: 2
+log_mass_max: 3
+log_mass_const: null
+num_samples_estimate_initial_mean: 10000
+
+num_iters: 1000
+batch_size: 128
+train_scale: True
+hmc_lr: 0.01
+hmc_scale_lr: 0.005
+hmc_g_lr: 0.01
+save_interval: 100

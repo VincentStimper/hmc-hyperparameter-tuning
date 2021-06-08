@@ -1,0 +1,15 @@
+defaults:
+  - defaults
+
+name: "AccProb"
+
+path_to_initial_dist_model: '${outputs_path}/InitialDist/initial_dist_final.pt'
+
+start_log_stepsize: -6
+start_log_mass: 3
+
+target_acceptance_prob: 0.65
+learning_rate: 1
+learning_rate_decay: 0.6 # needs to be 0.5 < lrd <= 1
+num_iters: 100
+batch_size: 128

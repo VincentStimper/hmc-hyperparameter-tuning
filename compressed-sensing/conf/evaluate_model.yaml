@@ -1,0 +1,17 @@
+defaults:
+  - defaults
+
+name: "EvaluateModels"
+
+is_test: True
+is_validation: False
+num_w_samples: 10000
+num_repeats: 20
+
+test_hmc_model: True
+path_to_hmc_model: ''
+hmc_model_includes_scale: True
+
+test_initial_dist_model: False
+path_to_initial_dist_model: '${outputs_path}/InitialDist/initial_dist_final.pt'
+

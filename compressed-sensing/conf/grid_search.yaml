@@ -1,0 +1,15 @@
+defaults:
+  - defaults
+
+name: "GridSearch"
+
+path_to_initial_dist_model: '${outputs_path}/InitialDist/initial_dist_final.pt'
+
+log_stepsize_min: -7
+log_stepsize_max: -4
+log_mass_min: 1
+log_mass_max: 4
+fidelity: 5 # must be >=2. This is the side length of the grid
+
+num_ll_calc_repeats: 5
+num_ll_calc_samples: 10000

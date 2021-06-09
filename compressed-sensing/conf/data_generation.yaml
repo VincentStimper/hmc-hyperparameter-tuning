@@ -1,0 +1,8 @@
+defaults:
+  - defaults
+
+name: "DataGeneration"
+
+num_training_datapoints: 6
+num_validation_datapoints: 1000
+num_test_datapoints: 1000

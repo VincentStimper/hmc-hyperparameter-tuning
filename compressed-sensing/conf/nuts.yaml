@@ -1,0 +1,8 @@
+defaults:
+  - defaults
+
+name: "NUTS"
+path_to_initial_dist: '${outputs_path}/InitialDist'
+num_samples: 10000
+burn_in: 5000
+delta: 0.5

@@ -1,7 +1,6 @@
 # Tuning hyperparameters of Hamiltonian Monte Carlo
 
-This is the code used to do the experiments of the article "Gradient-based tuning of Hamiltonian Monte Carlo 
-hyperparameters". 
+This is the code used to do the experiments of the article "A Gradient Based Strategy for Hamiltonian Monte Carlo Hyperparameter Optimization". 
 
 ## Installation instructions
 
@@ -11,7 +10,7 @@ These experiments were done with numpy, scipy, and autograd, so these packages h
 
 ### Variational Autoencoder
 
-The framework TensorFlow 2 was used here. For installation instruction, see https://www.tensorflow.org/install.
+The framework TensorFlow 1.15 was used here. For installation instruction, see https://www.tensorflow.org/install.
 
 ### 1D experiments and molecular configuration sampling
 

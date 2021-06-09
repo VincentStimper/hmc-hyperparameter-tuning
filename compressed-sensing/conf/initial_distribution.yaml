@@ -1,0 +1,10 @@
+defaults:
+  - defaults
+
+name: "InitialDist"
+
+anneal_steps: 30
+inner_iters: 1000 # number of gradient steps per anneal step
+alpha: 1
+batch_size: 128
+save_interval: 10 # based on anneal step

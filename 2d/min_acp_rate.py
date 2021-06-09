@@ -67,7 +67,7 @@ def generate_samples_HMC(eps0, params, n = 100):
     acp = np.zeros(n)
     for j in range(L):
         r = rs.randn(n, params.shape[ 1 ]) * np.exp(0.5 * 0)
-        z_new, r_new = leapfrog(z, r, eps, 1.0, dlogP)
+        z_new, r_new = leapfrog(z, r, eps, 0.0, dlogP)
         p_acceptance = np.minimum(1, np.exp(logP(z_new) - logP(z) -0.5 * np.sum(r_new**2 /  np.exp(0), 1) + \
             0.5 * np.sum(r**2 /  np.exp(0), 1)))
         accepted = rs.rand(n) < p_acceptance  # n-dimensional, ie. 100-dimensional

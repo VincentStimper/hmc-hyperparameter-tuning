@@ -1,0 +1,20 @@
+# @package _global_
+hydra:
+  sweep:
+    # dir: outputs\${now:%Y-%m-%d_%H-%M-%S}_${name}_sweep
+    dir: ${outputs_path}/${name}
+  run:
+    # dir: outputs\${now:%Y-%m-%d_%H-%M-%S}_${name}_run
+    dir: ${outputs_path}/${name}
+
+outputs_path: 'outputs/${now:%Y-%m-%d}_run'
+
+seed: 0
+
+path_to_observed_data: '${outputs_path}/DataGeneration'
+w_dim: 64
+sigma_0: 0.005
+tau: 0.01
+
+num_hmc_steps: 20
+num_leapfrog_steps: 5

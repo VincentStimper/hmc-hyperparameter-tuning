@@ -1,6 +1,7 @@
 # Tuning hyperparameters of Hamiltonian Monte Carlo
 
-This is the code used to do the experiments of the article "A Gradient Based Strategy for Hamiltonian Monte Carlo Hyperparameter Optimization". 
+This is the code used to do the experiments of the article "A Gradient Based Strategy for Hamiltonian Monte Carlo
+Hyperparameter Optimization". 
 
 ## Installation instructions
 

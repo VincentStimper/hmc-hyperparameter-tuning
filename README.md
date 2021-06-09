@@ -18,6 +18,6 @@ The framework TensorFlow 2 was used here. For installation instruction, see http
 We used the framework PyTorch 1.6 for these experiments, see  https://pytorch.org/get-started/locally/ for installation
 instructions. Furthermore, to dependencies need to be installed via
 ```
-pip install --upgrade dependencies/normalizing-flows
-pip install --upgrade dependencies/boltzmann-generators
+pip install --upgrade git+https://github.com/VincentStimper/normalizing-flows.git
+pip install --upgrade git+https://github.com/VincentStimper/boltzmann-generators.git
 ```

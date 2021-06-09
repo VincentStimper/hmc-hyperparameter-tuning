@@ -15,8 +15,12 @@ The framework TensorFlow 1.15 was used here. For installation instruction, see h
 ### 1D experiments and molecular configuration sampling
 
 We used the framework PyTorch 1.6 for these experiments, see  https://pytorch.org/get-started/locally/ for installation
-instructions. Furthermore, to dependencies need to be installed via
+instructions. Furthermore, to dependencies need to be installed via#
+
 ```
 pip install --upgrade git+https://github.com/VincentStimper/normalizing-flows.git
 pip install --upgrade git+https://github.com/VincentStimper/boltzmann-generators.git
 ```
+
+The scripts for running the experiments are in the `molecular-configurations` directory. Each experiment can be
+reproduced using the respective configuration file in `molecular-configurations/config`.

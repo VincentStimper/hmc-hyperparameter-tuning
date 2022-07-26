@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import sys
 sys.path.insert(0, '../../normalizing-flows')
-import normflow as nf
+import normflows as nf
 
 class CustomHamiltonianMonteCarlo(nf.flows.Flow):
     """

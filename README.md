@@ -19,7 +19,7 @@ We used the framework PyTorch 1.6 for these experiments, see  https://pytorch.or
 instructions. Furthermore, to dependencies need to be installed via#
 
 ```
-pip install --upgrade git+https://github.com/VincentStimper/normalizing-flows.git
+pip install normflows
 pip install --upgrade git+https://github.com/VincentStimper/boltzmann-generators.git
 ```
 

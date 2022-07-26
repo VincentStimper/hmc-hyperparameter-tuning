@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import torch
 import torch.nn as nn
 import sys
-import normflow as nf
+import normflows as nf
 from tqdm import tqdm
 import hydra
 import subprocess

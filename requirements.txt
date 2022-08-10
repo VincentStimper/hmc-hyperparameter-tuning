@@ -1,0 +1,2 @@
+normflows
+boltzgen @ git+https://github.com/VincentStimper/boltzmann-generators.git
